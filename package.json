@@ -1,0 +1,28 @@
+{
+  "name": "do-task-backend",
+  "version": "1.0.0",
+  "description": "- DoTasks is a task manager, that lets you to easily add configure and manage tasks.  - Project is set up on Node.js backend and MongoDB database - Tasks can be grouped in folders, both tasks  and folders are draggable and can be moved all around. - Tasks can contain, lists, subtasks or files if needed. - Tasks can be scheduled, an email notification will be send to user if desired. - App is managed with Jira and tested with Jasmine.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubasulek2/Do-Task-Backend.git"
+  },
+  "author": "kubasulek2 <kubasulek2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kubasulek2/Do-Task-Backend/issues"
+  },
+  "homepage": "https://github.com/kubasulek2/Do-Task-Backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
+  }
+}
